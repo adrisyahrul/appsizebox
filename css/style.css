@@ -1,0 +1,665 @@
+.bag5 {
+	max-width:20%;
+	flex:20%;
+}
+.bag4 {
+	max-width:25%;
+	flex:25%;
+}
+.rumus-carton {
+	width: 50%;
+	padding: 40px 0;
+	margin: 40px auto;
+}
+.btn-appbox {
+	width: 100%;
+}
+/*Created by adri_syahrul@app.co.id-01131618*/
+input, select, button {
+	font-family: segoe UI;
+}
+.logo-app {
+	margin: 25px auto 5px;
+}
+.reduksiclass {
+	line-height: 34px;
+	font-size: 30px;
+}
+.btn {
+	font-family: segoe UI;
+}
+.text-h1 {
+	position: absolute;
+	width: 60px;
+	margin-top: 19px;
+	-webkit-transform: rotate(90deg);
+}
+.txt-tt {
+	top: 55px;
+	right: -54px;
+}
+
+.grs-knan {
+	border: 1px solid red;
+	border-left: 0;
+	height: 328px;
+	width: 15px;
+	position: absolute;
+	right: -50px;
+	top: -99px;
+}
+.grs-bwah {
+	border: 1px solid red;
+	border-top: 0;
+	width: 688px;
+	height: 15px;
+	position: absolute;
+	top: 120px;
+	right: -15px;
+}
+.drawing-canvas {
+	height: 82vh;
+	font-weight: bold;
+	position: relative;
+}
+/*Created by adri_syahrul@app.co.id-01131618*/
+.tabox {
+	position: absolute;
+	right: 250px;
+	top: 15px;
+	text-align: center;
+}
+.bodybox {
+	top: 114px;
+	right: 250px;
+	position: absolute;
+	text-align: center;
+}
+.tbbox {
+	position: absolute;
+	right: 250px;
+	top: 243px;
+	text-align: center;
+}
+.kp {
+	width: 18px;
+	height: 130px;
+	border: 1px solid black;
+	float: left;
+}
+.le1 {
+	width: 185px;
+	height: 130px;
+	border: 1px solid black;
+	border-left: 0;
+	float: left;
+}
+.le2 {
+	width: 150px;
+	height: 130px;
+	border: 1px solid black;
+	border-left: 0;
+	float: left;
+}
+.le3 {
+	width: 185px;
+	height: 130px;
+	border: 1px solid black;
+	border-left: 0;
+	float: left;
+}
+.le4 {
+	width: 150px;
+	height: 130px;
+	border: 1px solid black;
+	border-left: 0;
+	float: left;
+}
+.t1 {
+	width: 186px;
+	height: 100px;
+	border: 1px solid black;
+	float: left;
+}
+.t2 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid black;
+	border-left: 0;
+	float: left;
+}
+.t3 {
+	width: 185px;
+	height: 100px;
+	border: 1px solid black;
+	border-left: 0;
+	float: left;
+}
+.t4 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid black;
+	border-left: 0;
+	float: left;
+}
+.flute-drawing {
+	float: right;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+/*Created by adri_syahrul@app.co.id-01131618*/
+.row-reduksi .tooltip {
+	left: -120px !important;
+}
+.row-reduksi .tooltip-inner {
+	width: 300px;
+	max-width: 300px;
+}
+.flap-box .row {
+	margin: 0;
+}
+.body-box .row {
+	margin: 0;
+}
+.flapb-box .row {
+	margin: 0;
+	text-align: center;
+}
+.flap1 {
+	width: 126px;
+	height: 60px;
+	border: 1px solid black;
+	float: left;
+}
+.flap2 {
+	width: 100px;
+	height: 60px;
+	border: 1px solid black;
+	float: left;
+}
+.flap3 {
+	width: 126px;
+	height: 60px;
+	border: 1px solid black;
+	float: left;
+}
+.flap4 {
+	width: 100px;
+	height: 60px;
+	border: 1px solid black;
+	float: left;
+}
+.jointol {
+	width: 20px;
+	height: 100px;
+	border: 1px solid black;
+	float: left;
+}
+.length1 {
+	width: 126px;
+	height: 100px;
+	border: 1px solid black;
+	border-left: 0;
+	float: left;
+}
+.width1 {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-left: 0;
+	float: left;
+}
+/*Created by adri_syahrul@app.co.id-01131618*/
+.length2 {
+	width: 126px;
+	height: 100px;
+	border: 1px solid black;
+	border-left: 0;
+	float: left;
+}
+.width2 {
+	width: 99px;
+	height: 100px;
+	border: 1px solid black;
+	border-left: 0;
+	float: left;
+}
+.canvas-drawing {
+	display: none;
+	margin: auto;
+	width: 475px;
+}
+.flap-box {
+	margin-left: 19px;
+}
+.flapb-box {
+	margin-left: 19px;
+}
+.roll-bwah {
+	width: 471px;
+	border: 1px solid red;
+	border-top: 0;
+	height: 15px;
+	display: block;
+	margin-left: -19px;
+	margin-top: 15px;
+	padding-top: 15px;
+}
+.roll-kanan {
+	position: absolute;
+	top: 179px;
+	right: -15px;
+	width: 220px;
+	-webkit-transform: rotate(90deg);
+	text-align: center;
+}
+.roll-knan {
+	width: 15px;
+	height: 220px;
+	border: 1px solid red;
+	border-left: 0;
+	display: block;
+	position: absolute;
+	top: 79px;
+	right: 80px;
+}
+.akp {
+	float: left;
+	margin-left: -17px;
+}
+/*Created by adri_syahrul@app.co.id-01131618*/
+.al1 {
+	float: left;
+	width: 28%;
+	margin-left: -24px;
+}
+.aw1 {
+	float: left;
+	width: 22%;
+}
+.al2 {
+	float: left;
+	width: 28%;
+}
+.aw2 {
+	float: left;
+	width: 22%;
+}
+.txt-total-h {
+	position: absolute;
+	top: -25px;
+	right: 0;
+	left: 0;
+}
+.txt-flap.top {
+	float: left;
+	width: 27%;
+}
+.txt-flap.tt {
+	float: left;
+	width: 46%;
+}
+.txt-flap.bottom {
+	float: left;
+	width: 27%;
+}
+#tab-scoring {
+	margin-top: 20px;
+}
+.menu-tabs {
+	width: 33.3333%;
+	overflow: hidden;
+	line-height: 1px;
+	max-height: 35px;
+	font-weight: bold;
+	text-align: center;
+}
+.label-input {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 34px;
+}
+#modal-app-box .modal-body {
+	height: 60vh;
+}
+/*Created by adri_syahrul@app.co.id-01131618*/
+.helpsect {
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	right: 16px;
+	top: 20px;
+}
+.label-reduction {
+	margin-bottom: 15px;
+}
+#tab-ext-int {
+	margin-top: 20px;
+}
+#int-size {
+	margin-top: 20px;
+}
+#ext-size {
+	margin-top: 20px;
+}
+.menu-int-ext {
+	width: 50%;
+	overflow: hidden;
+	line-height: 1px;
+	max-height: 35px;
+	font-weight: bold;
+	text-align: center;
+}
+.menu-int-ext.active a {
+	color: #fff !important;
+	background: #646464 !important;
+}
+.menu-int-ext a {
+	background: #D5D5D5;
+	color: #5A5A5A;
+}
+.menu-tabs.active a {
+	color: #fff !important;
+	background: #646464 !important;
+}
+.menu-tabs a {
+	background: #D5D5D5;
+	color: #5A5A5A;
+}
+.btn-drawing {
+	background: #646464;
+	color: #fff;
+}
+.btn-drawing:hover, .btn-drawing:active, .btn-drawing:focus {
+	background: #797979;
+	color: #fff;
+}
+.btn-clear {
+	background: #D5D5D5;
+	color: #5A5A5A;
+}
+.btn-clear:hover, .btn-clear:active, .btn-clear:focus {
+	background: #EEE;
+	color: #5A5A5A;
+}
+.bg-master {
+	min-height: calc(100% - 122px);
+	background: #f5f5f5;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#flexo-arrow1, #flexo-arrow2, #flexo-arrow3, #flexo-arrow4, #flexo-arrow5, #flexo-arrow6, #longway-arrow1, #longway-arrow2, 
+#longway-arrow3, #longway-arrow4, #flexo-arrow1-1, #flexo-arrow2-1, #flexo-arrow3-1, #flexo-arrow4-1, #flexo-arrow5-1, 
+#flexo-arrow6-1, #longway-arrow1-1, #longway-arrow2-1, #longway-arrow3-1, #longway-arrow4-1 {
+	display: none;
+}
+
+.arrow-longway {
+	text-align: center;
+	position: relative;
+	top: 39px;
+}
+.longway-line {
+	border: solid red;
+	border-width: 0 0 1px 0;
+	width: 35px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.longway-line.longway-2 {
+	width: 23px;
+}
+.longway-arrow {
+	border: solid red;
+	border-width: 0 0 1px 0;
+	width: 33px;
+	position: absolute;
+	right: 2px;
+	top: 10px;
+}
+.longway-arrow.longway-2 {
+	width: 21px;
+}
+.longway-arrow:after {
+	content: '';
+	border: solid red;
+	position: absolute;
+	border-width: 0 1 1 0;
+	-webkit-transform: rotate(-45deg);
+	display: inline-block;
+	padding: 3px;
+	right: 0;
+	top: -3px;
+}
+
+.arrow-flexo-1 {
+	text-align: center;
+	position: relative;
+	top: 18px;
+}
+.arrow-flexo-2 {
+	text-align: center;
+	position: relative;
+	top: 39px;
+}
+.flexo-line {
+	border: solid red;
+	border-width: 0 1px 0 0;
+	height: 20px;
+	position: absolute;
+	left: 63px;
+	top: -19px;
+}
+.flexo-line.flexo-line-1 {
+	top: -39px;
+	height: 40px;
+}
+.flexo-arrow {
+	border: solid red;
+	border-width: 0 1px 0 0;
+	height: 22px;
+	position: absolute;
+	left: 63px;
+	bottom: -20;
+}
+.flexo-arrow.flexo-arrow-1 {
+	bottom: -39px;
+	height: 40px;
+}
+.flexo-arrow:after {
+	content: '';
+	border: solid red;
+	position: absolute;
+	border-width: 0 1 1 0;
+	-webkit-transform: rotate(45deg);
+	display: inline-block;
+	padding: 3px;
+	left: -3;
+	bottom: 1px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+@media (min-width: 767px) {
+	.modal-appbox {
+		width: 90%;
+	}
+	.btn-drawing, .mobile-label {
+		display: none;
+	}
+	.scoring-length .form-control {
+		padding: 5px;
+	}
+	#typereduksi-on-drawing {
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 450px) {
+	.logo-app {
+		max-width: 400px;
+		margin: 25px auto 25px;
+	}
+	.row-reduksi {
+		margin-top: 45px;
+	}
+}
+@media (max-width: 767px) {
+	.bg-master {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		margin-top: 25px;
+	}
+	input, select, button {
+		margin-bottom: 5px !important;
+	}
+	.canvas-drawing-box {
+		display: none;
+	}
+	.canvas-drawing {
+		-webkit-transform: scale(0.7, 0.7);
+		position: absolute;
+		margin: auto;
+		left: -25px;
+	}
+	.drawing-canvas {
+		height: 50vh;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	.tabox {
+		right: 75px;
+	}
+	.bodybox {
+		top: 79px;
+		right: 75px;
+	}
+	.tbbox {
+		right: 75px;
+		top: 128px;
+	}
+	.kp {
+		width: 13px;
+		height: 50px;
+	}
+	.le1 {
+		width: 79px;
+		height: 50px;
+	}
+	.le2 {
+		width: 60px;
+		height: 50px;
+	}
+	.le3 {
+		width: 80px;
+		height: 50px;
+	}
+	.le4 {
+		width: 60px;
+		height: 50px;
+	}
+	.t1 {
+		width: 80px;
+		height: 65px;
+	}
+	.t2 {
+		width: 60px;
+		height: 65px;
+	}
+/*Created by adri_syahrul@app.co.id-01131618*/
+	.t3 {
+		width: 80px;
+		height: 65px;
+	}
+	.t4 {
+		width: 60px;
+		height: 65px;
+	}
+	.flute-drawing {
+		float: right;
+		margin-right: 20px;
+		font-weight: bold;
+	}
+	.txt-kp {
+		left: -43px;
+		top: 45px;
+		margin-top: 5px;
+		-webkit-transform: rotate(-90deg);
+	}
+	.txt-l1 {
+		margin-top: 0;
+		right: 200px;
+
+	}
+	.txt-w1 {
+		margin-top: 0;
+		right: 133px;
+	}
+	.txt-l2 {
+		margin-top: 0;
+		right: 62px;
+	}
+	.txt-w2 {
+		margin-top: 0;
+		right: -7px;
+	}
+	.text-h1 {
+		top: 25px;
+		right: -50px;
+	}
+	.txt-tt {
+		top: 16px;
+		right: -50px;
+	}
+	.grs-knan {
+		height: 178px;
+		width: 10px;
+		right: -45px;
+		top: -64px;
+	}
+	.txt-total-h {
+		right: 0;
+		top: -30px;
+	}
+	.grs-bwah {
+		width: 292px;
+		height: 10px;
+		top: 85px;
+		right: -15;
+	}
+	.txt-total-w {
+		right: 107;
+		top: 95px;
+	}
+	.roll-knan {
+		top: 0;
+		right: -24px;
+	}
+	.roll-kanan {
+		top: 100px;
+		right: -118px;
+	}
+	.row.row-reduksi {
+		margin-top: 20px;
+	}
+}
+@media (max-width: 450px) {
+	.canvas-drawing {
+		left: -55px;
+	}
+}
+@media (max-width: 290px) {
+	.canvas-drawing {
+		left: -90px;
+		-webkit-transform: scale(0.5, 0.5)
+	}
+	.fa-image, .fa-gear, .fa-pencil {
+		display: none;
+	}
+}
+/*Created by adri_syahrul@app.co.id-01131618*/

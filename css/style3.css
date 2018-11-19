@@ -1,0 +1,91 @@
+@font-face{
+    font-family:'brus445n';
+    src:url('../fonts/BRUS445N.TTF');
+}
+@font-face{
+    font-family:'amerigo';
+    src:url('../fonts/AMRIGOB.TTF');
+}
+#wallpaper-page {
+	position: relative;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	float: left;
+	width: 65%;
+}
+#page-login {
+	position: relative;
+	float: right;
+	width: 35%;
+	background-color: #555;
+	height: 100vh;
+}
+.form-login {
+	position: absolute;
+	width: 80%;
+	margin: 50px auto;
+	right: 0;
+	left: 0;
+}
+.logo-app {
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+}
+#page-login .form-control {
+	margin-bottom: 10px;
+}
+.text-content {
+	color: #fff;
+}
+.btn-login {
+	width: 100%;
+	background: rgba(255, 255, 255, 0);
+	color: #fff;
+	border: 2px solid #FFF;
+	transition: 0.5s;
+	margin-bottom: 10px;
+}
+.login-mobile {
+	display: none;
+}
+.btn-login:hover {
+	background: #fff;
+}
+.admin-email {
+	color: #fff;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.admin-email:hover {
+	color: #fff;
+	text-decoration: blink;
+	text-shadow: #000 1px 1px 5px;
+}
+.footer-login {
+	position: absolute;
+	width: 80%;
+	margin: auto;
+	right: 0;
+	left: 0;
+	bottom: 20px;
+	color: #fff;
+	text-align: center;
+}
+@media screen and (max-width: 768px) {
+	#wallpaper-page {
+		display: none;
+	}
+	#page-login {
+		width: 100%;
+	}
+	.login-dekstop {
+		display: none;
+	}
+	.login-mobile {
+		display: block;
+	}
+}

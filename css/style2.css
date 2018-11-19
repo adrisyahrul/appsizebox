@@ -1,3 +1,5 @@
+/*created for APP BOX Size v.2.1.1*/
+
 @font-face{
     font-family:'brus445n';
     src:url('../fonts/BRUS445N.TTF');
@@ -8,6 +10,13 @@
 }
 body {
     cursor: default;
+}
+.img-responsive.logo-app {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
 }
 .sidenav {
     height: 100%;
@@ -125,13 +134,7 @@ input::-webkit-inner-spin-button {
     line-height: 30px;
     color: #ccc;
 }
-.img-responsive.logo-app {
-    margin-bottom: 20px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.5s;
-}
+
 .btn-process-drawing1 {
     background-color: #BEBEBE;
     color: #333;
@@ -195,21 +198,7 @@ input::-webkit-inner-spin-button {
     height: 100vh;
     padding: 0 100px;
 }
-.button-opening-block .btn-mobile-version {
-    width: 200px;
-    margin-bottom: 40px;
-    border: 0;
-    background: #D5D5D5;
-}
-.button-opening-block .btn-process:hover {
-    background: #D5D5D5;
-    border: 0;
-}
-.button-opening-block .btn-old-version:hover {
-    background: #555;
-    color: #fff;
-    border: 0;
-}
+
 .img-responsive.arrow-training {
     width: 80px;
     float: left;
@@ -238,29 +227,7 @@ input::-webkit-inner-spin-button {
     line-height: 16px;
     margin-left: 15px;
 }
-.descript-application {
-    padding-top: 10px;
-    transition: 0.5s;
-}
 
-
-.btn-process {
-    background: #555;
-    color: #fff;
-    transition: 0.5s;
-    border: 0;
-}
-.btn-old-version {
-    color: #333;
-    transition: 0.5s;
-    border: 0;
-}
-.opening-application-tray .btn-process {
-    width: 200px;
-}
-#description {
-    -webkit-animation: fadeIn 1s;
-}
 .button-opening-block {
     margin-top: 25px;
     text-align: center;
@@ -305,28 +272,6 @@ input::-webkit-inner-spin-button {
     padding: 20px 50px;
     position: absolute;
     bottom: 15px;
-}
-.title-jobs {
-    font-family: amerigo;
-    margin-top: 0 !important;
-    margin-bottom: 5px !important;
-}
-h3.title-jobs {
-    margin-bottom: 20px !important;
-}
-#description h1, #description h2, #description h3, #description h4, #description h5 {
-    margin: 0;
-    margin-bottom: 15px;
-    text-align: center;
-}
-.heading-table {
-    background: #555;
-    color: #fff;
-    font-weight: bold;
-}
-.heading-table td {
-    padding: 10px;
-    text-align: center;
 }
 #drawing {
     height: 64vh;
@@ -464,12 +409,7 @@ h3.title-jobs {
     left: 70vh;
     height: 15px;
 }
-.btn-mobile-version {
-    display: none;
-}
-.btn-dekstop-version {
-    display: inline-block;
-}
+
 .text-rk.txt-total-rk {
     text-align: center;
     width: 100%;
@@ -600,14 +540,6 @@ h3.title-jobs {
 }
 .longway-reduction {
     margin-top: 38px;
-}
-@media screen and (max-width: 768px) {
-  .btn-mobile-version {
-    display: inline-block;
-  }
-  .btn-dekstop-version {
-    display: none;
-  }
 }
 
 .calculate-container {

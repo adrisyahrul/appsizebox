@@ -1,3 +1,4 @@
+// created for APP BOX Size Mobile v1.2.3
 // =========================================back end=========================================
 
 $(".btn-drawing").prop("disabled", true);
@@ -787,5 +788,10 @@ $("#typereduksi-on-drawing1").change(function()
 		$("#longway-arrow2-1").css("display", "none");
 		$("#longway-arrow3-1").css("display", "none");
 		$("#longway-arrow4-1").css("display", "none");
+	}
+});
+$(".close-tab").click(function() {
+	if(confirm('Are you sure to close ?')){
+		window.close();
 	}
 });

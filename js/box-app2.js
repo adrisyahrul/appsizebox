@@ -1,3 +1,5 @@
+// created for APP BOX Size v2.1.1
+
 $(".btn-process-drawing1").prop("disabled", true);
 $(".btn-process-drawing2").prop("disabled", true);
 $(".flexo-reduction").css("display", "none");
@@ -20,6 +22,10 @@ $("#btn-internal-size").click(function() {
 	$(".startup-text").css("display", "none");
 	$(".btn-reduct").css("top", "0");
 	$(".validation-reduction").val(1);
+	$(".inp-lenght").val("");
+	$(".inp-width").val("");
+	$(".inp-height").val("");
+	$(".btn-process-drawing1").prop("disabled", true);
 });
 $("#btn-external-size").click(function() {
 	$(".from-internal-size").css("display", "none");
@@ -30,6 +36,10 @@ $("#btn-external-size").click(function() {
 	$(".startup-text").css("display", "none");
 	$(".btn-reduct").css("top", "0");
 	$(".validation-reduction").val(1);
+	$(".exp-lenght").val("");
+	$(".exp-width").val("");
+	$(".exp-height").val("");
+	$(".btn-process-drawing2").prop("disabled", true);
 });
 
 // ================== Validation form
@@ -823,4 +833,8 @@ $("#typereduksi").change(function() {
 		$("#manual-reduction").prop("disabled", true);
 	}
 });
-
+$(".close-tab").click(function() {
+	if(confirm('Are you sure to close ?')){
+		window.close();
+	}
+});
